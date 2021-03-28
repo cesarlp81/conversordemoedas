@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 500px;
+    background-image: url('https://www.vounajanela.com/wp-content/uploads/2018/01/visitar-a-torre-eiffel-4.jpg');
+    background-color: #000;
+    background-size: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #fff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #fff;
+    margin-top: 5px;
+    
+  }
+  
+  .descrisao > span{ 
+    color: #ffff00;
+    margin-top: 5px;
+    font-size: 36px;
+    
+  }
+  .descrisao{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 36px;
+  }
+  
+  .page-logo {
+    width: 100px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  form fieldset {
+    margin: 10px auto 10px auto;
+    width: 40%;
+    border: solid white 1px;
+    padding: 3%;
+  }
+  
+  form legend {
+    padding: 6px;
+    margin: 10px;
+    border: solid black 1px;
+    font-size: 90%;
+    font-weight: bold;
+    background-color: #e8e8e8;
+  }
+  
+  form label {
+    display: flex;
+    font-size: 11px;
+    color:#e8e8e8;
+  }
+
+  label {
+    color: #e8e8e8;
+  }
+  
+  form input {
+    width: 100%;
+    border: solid #fff 1px;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  
+  form input.botao {
+    display: block;
+    width: auto;
+    float: right; 
+  }
+
+  form input.botao2 {
+    display: block;
+    width: auto;
+ }
+
+ 

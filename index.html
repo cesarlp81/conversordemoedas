@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Imersão Dev - Aula 01</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Converta Reais R$ em EURO € / Dolar $  /  Libra Sterlina £
+      </p>
+      <p class="descrisao">Imersão<span> Dev_</span></p>
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="page-logo" alt="">
+    </div>
+      <form name="calcform" method="post" action="*">
+        <fieldset>
+            <legend>Calculadora de Moedas</legend>
+
+            <label for="valor">Digite o valor<strong> </strong>:</label>
+            <input type="text" name="valor" id="valor" />
+            
+          
+          <label for="oper">Selecione a Moeda:</label>
+              <select id="res" name="oper" id="oper">
+                <option value="€">Euro</option>
+                <option value="US$">Dolar</option>
+                <option value="£">Libra</option> 
+              </select>
+              <label for="resultado">Resultado:</label> 
+              <span id="valorFinal"></span>   
+            <input id="resultado" type="text"  id="text1" />
+            <input type="button" value="Converter" class="botao" onclick="conversao()" />
+            <input type="reset" value="Limpar" class="botao2"/>
+        </fieldset>
+      </form>
+
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+
+    <script src="js/main.js"></script>
+  <body>
+</html>
